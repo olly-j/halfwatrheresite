@@ -1,0 +1,19 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="60" rx="8" fill="url(#badgeGradient)"/>
+  
+  <!-- Apple logo -->
+  <path d="M25 15c-0.5 0-1.2 0.3-1.8 0.8-0.6 0.5-1.1 1.2-1.1 1.8 0 0.6 0.3 1.2 0.8 1.7 0.5 0.5 1.1 0.8 1.7 0.8 0.6 0 1.2-0.3 1.7-0.8 0.5-0.5 0.8-1.1 0.8-1.7 0-0.6-0.3-1.2-0.8-1.7C26.2 15.3 25.6 15 25 15z" fill="white"/>
+  <path d="M25 20c-1.5 0-2.8 0.8-3.5 1.5-0.7 0.7-1.2 1.5-1.2 2.5 0 1 0.5 1.8 1.2 2.5 0.7 0.7 2 1.5 3.5 1.5 1.5 0 2.8-0.8 3.5-1.5 0.7-0.7 1.2-1.5 1.2-2.5 0-1-0.5-1.8-1.2-2.5C27.8 20.8 26.5 20 25 20z" fill="white"/>
+  
+  <!-- Text -->
+  <text x="100" y="25" text-anchor="middle" fill="white" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600">Download on the</text>
+  <text x="100" y="40" text-anchor="middle" fill="white" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700">App Store</text>
+</svg>

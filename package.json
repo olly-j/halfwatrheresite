@@ -1,0 +1,32 @@
+{
+  "name": "halfway-there-website",
+  "version": "1.0.0",
+  "description": "Official website for the Halfway There iOS app",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1",
+    "dev": "npx http-server -p 8000 -c-1",
+    "build": "echo 'Static site - no build step required'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "halfway-there",
+    "ios-app",
+    "meeting-points",
+    "location-app",
+    "apple-design"
+  ],
+  "author": "Halfway There Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/halfway-there-ios.git"
+  },
+  "homepage": "https://halfwaythere.app"
+}
